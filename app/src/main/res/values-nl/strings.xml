@@ -29,7 +29,7 @@
     <string name="generic_example">Voorbeeld</string>
     <string name="generic_error">Fout</string>
     <string name="generic_help">Hulp</string>
-    <string name="grant_permission">Machtiging verlene</string>
+    <string name="grant_permission">Machtiging verlenen</string>
     <string name="permission_granted">Machtiging verleend</string>
     <string name="reason">Reden:</string>
     <string name="accept">Accepteren</string>
@@ -41,7 +41,7 @@
     <!-- Shown in the chooser dialog when sharing a Device ID -->
     <string name="send_device_id_to">Apparaat-ID versturen naar</string>
     <string name="usage_reporting_dialog_title">Anoniem gebruiksrapportage toestaan\?</string>
-    <string name="usage_reporting_dialog_description">Het versleuteld gebruiksrapport wordt dagelijks verzonden. Het wordt gebruikt om veelgebruikte platformen, mapgroottes en applicatieversies te volgen. Indien de gerapporteerde gegevensset wordt veranderd zal je deze dialoog opnieuw te zien krijgen.
+    <string name="usage_reporting_dialog_description">Het versleutelde gebruiksrapport wordt dagelijks verzonden. Het wordt gebruikt om veelgebruikte platformen, mapgroottes en applicatieversies te volgen. Indien de gerapporteerde gegevensset wordt veranderd zal je deze dialoog opnieuw te zien krijgen.
 \n
 \nDe geaggregeerde statistieken zijn publiek beschikbaar op https://data.syncthing.net.</string>
     <string name="yes">Ja</string>
@@ -85,7 +85,7 @@
     <!-- Same as upload_title with a colon and space appended -->
     <string name="upload_title_colon">"Upload: "</string>
     <!-- Title for current RAM usage -->
-    <string name="ram_usage">RAM-gebrui</string>
+    <string name="ram_usage">RAM-gebruik</string>
     <!-- Title for announce server status -->
     <string name="announce_server">Mededelingsserver</string>
     <string name="restart">Herstarten</string>
@@ -172,7 +172,7 @@
     <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Schakel wifi in om netwerken te selecteren.</string>
     <string name="sync_only_wifi_ssids_need_to_grant_location_permission">Geef de LOCATIE-toestemming om deze functie te gebruiken.</string>
     <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_title">Toestemming vereist</string>
-    <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_content">Vanaf Android 8.1 wordt toegang tot de locatie vereist om de naam van het wifinetwerk te kunnen lezen. Deze functie kan enkel gebruikt worden als je deze toestemming geeft.</string>
+    <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_content">Vanaf Android 8.1 is toegang tot de locatie vereist om de naam van het wifinetwerk te kunnen lezen. Deze functie kan enkel gebruikt worden als je deze toestemming geeft.</string>
     <string name="respect_battery_saving_title">Eerbiedig de batterijbesparingsinstellingen van Android</string>
     <string name="use_root_title">Syncthing uitvoeren als superuser</string>
     <string name="preference_language_title">Taal</string>
@@ -255,7 +255,7 @@
     <!-- ListView empty text -->
     <string name="directory_empty">Map is leeg</string>
     <!-- Menu item to create folder on the file system -->
-    <string name="create_fs_folder">Nieuwe map creeëren</string>
+    <string name="create_fs_folder">Nieuwe map creëren</string>
     <!-- Menu item to select the current folder -->
     <string name="select_folder">Map selecteren</string>
     <string name="create_folder_failed">Aanmaken van map mislukt</string>
@@ -457,21 +457,21 @@
     <string name="category_debug">Probleemoplossing</string>
     <string name="suggest_file_manager_app_dialog_text">We raden je aan om de open-source bestandsbeheer-app ‘Material Files’ te installeren. Wil je de app store openen?</string>
     <string name="device_id_invalid">De apparaat-ID is niet correct geformatteerd. Probeer het opnieuw en voer de juiste ID in.</string>
-    <string name="button_force_start">START FORCEREN. \nUITVOERWAARDEN NEGEREN</string>
+    <string name="button_force_start">START FORCEREN.\nUITVOERWAARDEN NEGEREN</string>
     <string name="folder_path_readonly">Je Android versie geeft Syncthing alleen lees-toegang tot de geselecteerde map.</string>
     <string name="folder_path_readwrite">Je Android versie geeft Syncthing lees- en schrijftoegang tot de geselecteerde map.</string>
     <string name="button_follow_run_conditions">UITVOERWAARDEN VOLGEN</string>
-    <string name="deviceEncryptionPasswordHint">Als het niet vertrouwt is, voer dan het coderingswachtwoord in</string>
+    <string name="deviceEncryptionPasswordHint">Als het niet vertrouwd is, voer dan het coderingswachtwoord in</string>
     <string name="status_fragment_title">Status</string>
     <string name="devices_list_empty">Geen apparaten geconfigureerd. Tik op om een nieuw apparaat toe te voegen.</string>
-    <string name="no_devices_configured">Geen apparaten geconfigureerd. \nBegin nu met het toevoegen van een apparaat.</string>
+    <string name="no_devices_configured">Geen apparaten geconfigureerd.\nBegin nu met het toevoegen van een apparaat.</string>
     <string name="shared_folders_title_colon">"Mappen: "</string>
     <string name="device_syncing_percent_bytes">Synchroniseren (%1$d%%, %2$s)</string>
     <string name="device_state_unused">Ongebruikt</string>
     <string name="syncthing_has_crashed">Syncthing is vastgelopen.</string>
     <string name="untrusted_device_explanation">Alle mappen die worden gedeeld met dit apparaat moeten worden beveiligd met een wachtwoord, zodat alle verzonden gegevens onleesbaar zijn zonder het opgegeven wachtwoord.</string>
     <string name="discovered_device_list_empty">Lokale ontdekking heeft geen apparaten gevonden op het lokale netwerk. Voer deze app uit op een tweede telefoon. Installatiebestanden voor computers zijn beschikbaar op: %1$s</string>
-    <string name="tip_custom_sync_conditions_text">Deze functie zal nog worden verbeterd in toekomstige releases. Voor nu wilden we bestaande configuraties en app-gedrag niet verbreken. Daarom kunnen aangepaste synchronisatievoorwaarden voor een bepaald type netwerk alleen worden ingesteld als je synchronisatie op het netwerk eerst inschakelt in de globale run conditions.</string>
+    <string name="tip_custom_sync_conditions_text">Deze functie zal nog worden verbeterd in toekomstige releases. Voor nu wilden we bestaande configuraties en app-gedrag niet breken. Daarom kunnen aangepaste synchronisatievoorwaarden voor een bepaald type netwerk alleen worden ingesteld als je synchronisatie op het netwerk eerst inschakelt in de globale run conditions.</string>
     <string name="tip_ignore_delete_title">Foto\'s back-uppen van telefoon naar computer?</string>
     <string name="advanced_directory_selection">Geavanceerde mappenselectie</string>
     <string name="tip_ignore_delete_text">Als je een back-up van alle foto\'s op je telefoon op een computer wilt hebben, deel dan de map ‘Camera’ met de computer. Open Syncthing op de computer, voeg de map toe en ga naar ‘Acties’ &gt; ‘Geavanceerd’ &gt; map ‘Camera’. Schakel ‘Delete negeren’ in en klik op ‘Opslaan’. U kunt nu foto\'s verwijderen uit uw cameramap op de telefoon en er wordt een back-up van gemaakt op de computer.</string>
@@ -487,11 +487,11 @@
     <string name="tips_and_tricks_title">Tips &amp; Trucs</string>
     <string name="tip_write_to_sdcard_title">Schrijven naar externe sd kaart workaround</string>
     <string name="tip_huawei_device_disconnected_title">Huawei: ‘apparaat losgekoppeld’ workaround</string>
-    <string name="tip_huawei_device_disconnected_text">Als uw bureaublad voortdurend meldt dat uw Huawei apparaat geen verbinding heeft, open dan de Syncthing UI van uw bureaublad. Ga naar ‘externe apparaten’, vouw het item van de telefoon uit, klik op ‘Bewerken’, schakel over naar ‘Geavanceerd’. Zet het IP-adres van uw telefoon in \'Adressen\' als volgt: \ntcp4://%1$s, dynamisch \nWerkt bevestigd voor: Huawei P10</string>
+    <string name="tip_huawei_device_disconnected_text">Als uw bureaublad voortdurend meldt dat uw Huawei apparaat geen verbinding heeft, open dan de Syncthing UI van uw bureaublad. Ga naar ‘externe apparaten’, vouw het item van de telefoon uit, klik op ‘Bewerken’, schakel over naar ‘Geavanceerd’. Zet het IP-adres van uw telefoon in \'Adressen\' als volgt:\ntcp4://%1$s, dynamisch\nWerkt bevestigd voor: Huawei P10</string>
     <string name="modification_time">Tijd: %1$s</string>
     <string name="category_syncthing_options_summary">Dit menu is alleen beschikbaar als Syncthing actief is.</string>
     <string name="preference_app_theme_title">Thema</string>
-    <string name="web_page_loading">Webpagina wordt geladen: \n%1$s …</string>
+    <string name="web_page_loading">Webpagina wordt geladen:\n%1$s …</string>
     <string name="open_in_browser">Openen in browser</string>
     <string name="run_on_mobile_data_title">Draaien op mobiele data</string>
     <string name="run_on_roaming_title">Uitvoeren tijdens roaming</string>
